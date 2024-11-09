@@ -1,38 +1,21 @@
-# sv
+# Franken UI - Template SvelteKit
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/franken-ui/template-sveltekit)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/franken-ui/template-sveltekit)
 
-## Creating a project
+## 🧞 Commands
 
-If you're seeing this, you've probably already done this step. Congrats!
+All commands are run from the root of the project, from a terminal:
 
-```bash
-# create a new project in the current directory
-npx sv create
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:5173`      |
+| `npm run build`           | Build your production site to `./build/`         |
+| `npm run preview`         | Preview your build locally, before deploying     |
 
-# create a new project in my-app
-npx sv create my-app
-```
+## 👀 Want to learn more?
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+Feel free to check [our documentation](https://next.franken-ui.dev).
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
